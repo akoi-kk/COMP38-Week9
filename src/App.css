@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center; /* Centers the boxes horizontally */
+  align-items: center; /* Centers the boxes vertically */
+  height: 100vh; /* Makes the container take the full height of the viewport */
+  flex-direction: row; /* Ensures the boxes are in a row */
+}
+
+.box {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(220, 207, 228);
+  text-align: center;
+  border: 2px solid #430b4e;
+  border-radius: 5px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center; /* Centers the content inside the box horizontally */
+  align-items: center; /* Centers the content inside the box vertically */
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.container {
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.h1{
+  color:rgb(211, 211, 211);
+}
